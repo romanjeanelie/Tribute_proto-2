@@ -16,6 +16,12 @@ body {
   stroke-width: 1;
 }
 
+.line {
+  fill: none;
+  stroke: red;
+  stroke-width: 1;
+}
+
 @media (max-width: 750px) {
   .container {
     padding: 0 24px;
