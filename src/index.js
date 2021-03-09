@@ -20,12 +20,12 @@ export default class Lines {
 
   anim() {
     console.log(document.getElementById("line-1"));
-    this.tl1.from("#line-1", { drawSVG: 0, duration: 5 });
+    // this.tl1.from("#line-1", { drawSVG: 0, duration: 5 });
 
     // gsap.set(".line", { attr: { stroke: "hsl(1,100%, 50%)", "stroke-width": 4, "stroke-linecap": "round" } });
     // gsap.set(".line-2", { attr: { "stroke-width": 9 }, opacity: 0.15 });
 
-    // this.tl.from(this.shapes, { duration: 1, drawSVG: 0, stagger: 0.1 });
+    this.tl.from(this.shapes, { duration: 1, delay: 0.5, drawSVG: 0 });
   }
 }
 
