@@ -21,7 +21,7 @@ export default class Lines {
   anim() {
     this.tl1.from("circle, ellipse", { drawSVG: 0, duration: 5 });
 
-    this.tl.from("line", { duration: 1, delay: 0.5, drawSVG: 0 });
+    this.tl.from("#line-1", { duration: 1, delay: 0.5, drawSVG: 0 });
   }
 }
 
