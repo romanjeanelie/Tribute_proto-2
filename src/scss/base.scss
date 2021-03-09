@@ -1,0 +1,23 @@
+body {
+  font-family: "eesti";
+  font-size: 16px;
+  background: #333;
+  color: #eee;
+}
+
+.container {
+  padding: 0 32px;
+  max-width: 1440px;
+  width: 100%;
+}
+.line--el {
+  fill: none;
+  stroke: red;
+  stroke-width: 1;
+}
+
+@media (max-width: 750px) {
+  .container {
+    padding: 0 24px;
+  }
+}
